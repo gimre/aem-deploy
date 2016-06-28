@@ -1,0 +1,16 @@
+{
+  "name": "aem-deploy",
+  "version": "1.0.0",
+  "description": "Auto-deploy for Adobe Experience Manager (AEM). Watches a target folder for changes and auto-deploys to the target AEM instance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Imre",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^1.0.0",
+    "chokidar": "^1.6.0",
+    "form-data": "^1.0.0-rc4"
+  }
+}
